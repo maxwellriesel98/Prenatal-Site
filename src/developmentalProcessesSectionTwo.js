@@ -67,7 +67,7 @@ function changeMain_2(termNumber) {
         document.getElementById("secondary-body").innerHTML =
           "Originates from hypoblast. ";
       });
-      if($("#image1").attr("src") === "../public/images/cells-08-01173-g001.jpg"){
+      if($("#image1").attr("src") === "../public/images/NeuralCrestCells.PNG"){
         $("#image1").fadeOut("slow", () => {
           $("#image1").attr("src", "../public/images/embryonic-skin-development.png")
         });
@@ -83,7 +83,7 @@ function changeMain_2(termNumber) {
         document.getElementById("secondary-title").innerHTML = "Neural crest cells";
       });
       $("#image1").fadeOut("slow", () => {
-        $("#image1").attr("src", "../public/images/cells-08-01173-g001.jpg")
+        $("#image1").attr("src", "../public/images/NeuralCrestCells.PNG")
       });
       $("#secondary-body").fadeOut("slow", () => {
         document.getElementById("secondary-body").innerHTML =
